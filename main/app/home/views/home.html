@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="jumbotron">
+  <h1>Hello, {{user.fullName}}!</h1>
+  <p>Email: {{user.email}}</p>
+  <p>Address: {{user.address}}</p>
+  <p>Age: {{user.age}}</p>
+  <p>Gender: {{user.gender}}</p>
+  <p><a class="btn btn-primary btn-lg" ng-click="logout()" href="javascript:void(0)" role="button">Logout</a></p>
+</div>
+    
+    <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Employees | <a href="#/add">Add Employee!</a> |
+  Sort by : <select ng-model="sortorder">
+  <option value="+fullName">Name</option>
+  <option value="+email">Email</option>
+  <option value="+age">Age</option>
+  <option value="+gender">Gender</option>
+</select>
+
+  </div>
+  <div class="panel-body">
+    <p></p>
+  </div>
+
+  <!-- Table -->
+  <table class="table">
+      <tr>
+          <th> Name </th>
+          <th> Email </th>
+          <th> Address </th>
+          <th> Age </th>
+          <th> Gender </th>
+          <th> Education </th>
+          <th>Actions</th>
+      </tr>
+      <tr ng-show="employee.id" ng-repeat="employee in employees | orderBy:sortorder">
+          <td> {{employee.fullName}} </td>
+          <td> {{employee.email}} </td>
+          <td> {{employee.address}} </td>
+          <td> {{employee.age}} </td>
+          <td> {{employee.gender}} </td>
+          <td >  {{employee.education}} </td>
+          <td> <a href="#/home/{{employee.id}}">edit</a> | <a ng-click="deleteEmployee(employee.id)">delete</a></td>
+      </tr>
+  </table>
+</div>
+    
+</div>

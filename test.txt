@@ -1,0 +1,500 @@
+   13  git pull origin alpha
+   14  git push origin alpha
+   15  git status
+   16  git commit -a -m "remove comment in layout.php"
+   17  git pull origin alpha
+   18  git push origin alpha
+   19  git status
+   20  git status
+   21  git commit -a -m "apply condition for sign name in getSignature function "
+   22  git pull origin alpha
+   23  git status
+   24  git pull origin alpha
+   25  git push  origin alpha
+   26  git status
+   27  git diff application/controllers/admin/Cms.php
+   28  git diff application/controllers/admin/Cms.php
+   29  git diff application/helpers/system/communication/email_content_helper.php
+   30  git status
+   31  git diff application/views/utilities/layout/header.php
+   32  git branch
+   33  git commit -a -m "attach global company name in email."
+   34  git pull origin alpha
+   35  git pull origin alpha
+   36  git push origin alpha
+   37  cd /Applications/MAMP/htdocs/2ndmd/base/
+   38  git status
+   39  git commit -a -m "make dynamic BASE_URL in email content "
+   40  git status
+   41  git pull origin alpha
+   42  git status
+   43  git commit -a -m "resolved conflict "
+   44  git pull origin alpha
+   45  git push origin alpha
+   46  ping https://subscribe.2nd.md
+   47  cd /Applications/MAMP/htdocs/2ndmd/base/
+   48  git status
+   49  git branch
+   50  git branch excel_upload_testing
+   51  git branch
+   52  git checkout excel_upload_testing
+   53  git branch
+   54  cd ~
+   55  node --version
+   56  node --version
+   57  cd Applications/
+   58  ls
+   59  ped
+   60  pwd
+   61  cd~
+   62  cd ..
+   63  cd ..
+   64  cd ..
+   65  cd ..
+   66  cd Applications/MAMP/htdocs/2ndmd/node-server/
+   67  node --version
+   68  git status
+   69  node -v
+   70  node
+   71  node -help
+   72  php -v
+   73  node --version
+   74  cd /Applications/MAMP/htdocs/2ndmd/node-server 
+   75  git status
+   76  curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+   77  sudo curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+   78  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+   79  exit
+   80  history
+   81    245  cd /Applications/MAMP/htdocs/2ndmd/base/
+   82   cd /Applications/MAMP/htdocs/2ndmd/base/
+   83  git status
+   84  cd..
+   85   cd /Applications/MAMP/htdocs/2ndmd/monitor
+   86  git status
+   87  cd /Applications/MAMP/htdocs/2ndmd/node-server 
+   88  nvm --version
+   89  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+   90  cd ~
+   91  ls -al
+   92  touch .bash_profile
+   93  ls -al
+   94  vim .bash_profile 
+   95  vim .bash_profile 
+   96  vim .bash_profile 
+   97  vim .bash_profile 
+   98  exit
+   99  node server.js 
+  100  node server.js 
+  101  cd /Applications/MAMP/htdocs/2ndmd/consult 
+  102  git status
+  103  sudo npm install
+  104  node app.js
+  105  history
+  106  vim .bash_profile
+  107  cd ..
+  108  cd node-server/
+  109  vim .bash_profile
+  110  pwd
+  111  vim .profile
+  112  . ~/.nvm/nvm.sh
+  113  vim .bash_profile
+  114  nvm --version
+  115  nano .bash_profile
+  116  touch .bash_profile
+  117  vim .bash_profile
+  118  cd ~
+  119  pwd
+  120  vim .bash_profile
+  121  nvm --version
+  122  cd /Applications/MAMP/htdocs/2ndmd/node-server 
+  123  nvm use v0.10.36
+  124  nvm use 0.10.36
+  125  nvm run 0.10.36 --version
+  126  nvm install 0.10.36
+  127  node --version
+  128  cd 
+  129  cd /Applications/MAMP/htdocs/2ndmd/node-server 
+  130  sudo npm install
+  131  node server.js
+  132  node server.js
+  133  node server.js
+  134  node server.js
+  135  sudo npm install
+  136  node server.js
+  137  node server.js
+  138  node server.js 
+  139  node server.js 
+  140  node server.js 
+  141  node server.js 
+  142  node server.js 
+  143  node server.js 
+  144  node server.js 
+  145  node server.js 
+  146  node server.js 
+  147  clear
+  148  sudo npm install -g nodeamon
+  149  sudo npm install -g nodemon
+  150  node server.js 
+  151  node server.js 
+  152  node server.js 
+  153  node server.js 
+  154  clear
+  155  clear
+  156  node server.js 
+  157  node server.js 
+  158  nodemon server.js 
+  159  cd /Applications/MAMP/htdocs/2ndmd/consult 
+  160  node app.js
+  161  cd /Applications/MAMP/htdocs/2ndmd/node-server 
+  162  node server.js
+  163  node server.js
+  164  node -v
+  165  nvm install 0.10.36
+  166  nvm use -g  0.10.36
+  167  nvm use -g 0.10.36
+  168  node -v
+  169  node server.js
+  170  cd /Applications/MAMP/htdocs/2ndmd/base
+  171  git status
+  172  git branch
+  173  git checkout alpha
+  174  gti status
+  175  git status
+  176  git checkout application/controllers/admin/Uploader.php
+  177  git status
+  178  git checkout excel_upload_testing
+  179  git staus
+  180  git status
+  181  git branch
+  182  git commit -a -m "Commit batch upload functionality changes for the read lib of excel or csv"
+  183  git status
+  184  git add .
+  185  git commit -a -m "Commit batch upload functionality changes for the read lib of excel or csv"
+  186  git status
+  187  git checkout alpha
+  188  git status
+  189  git pull origin alpha
+  190  git checkout -b mukul/feature_update_header_image
+  191  git branch
+  192  git status
+  193  git status
+  194  git commit -a -m "resolve header image issue"
+  195  git status
+  196  git status
+  197  git branch
+  198  git branch mukul/feature_coupon_code_proces
+  199  git branch
+  200  git checkout mukul/feature_coupon_code_proces
+  201  git branch
+  202  git status
+  203  git commit -a -m "implement validation on coupon code before submit consult form"
+  204  git status
+  205  git branch
+  206  git checkout mukul/feature_update_header_image 
+  207  git status
+  208  git checkout alpha
+  209  git pull origin alpha
+  210  git pull origin alpha
+  211  git merge mukul/feature_update_header_image
+  212  git status
+  213  git push origin alpha
+  214  git branch
+  215  git merge mukul/feature_coupon_code_proces
+  216  git status
+  217  git pull origin alpha
+  218  git push origin alpha
+  219  git status
+  220  git commit -a -m "change coupon code validation message color"
+  221  git pull origin alpha
+  222  git pull origin alpha
+  223  git push origin alpha
+  224  git branch
+  225  git status
+  226  git pull origin alpha
+  227  git status
+  228  node --v
+  229  node -v
+  230  history'
+  231  history
+  232  cd /Applications/MAMP/htdocs/2ndmd/base
+  233  git status
+  234  git pull origin alpha
+  235  git pull origin alpha
+  236  git branch
+  237  git checkout mukul/feature_coupon_code_proces
+  238  git branch
+  239  git status
+  240  git pull origin alpha
+  241  git checkout alpha
+  242  git branch -b mukul/task_nl_895
+  243  git checkout -b mukul/task_nl_895
+  244  git branch
+  245  git status
+  246  git status
+  247  git commit -a -m "implement gift discount coupon"
+  248  git status
+  249  git status
+  250  git checkout alpha
+  251  git pull origin alpha
+  252  git status
+  253  git status
+  254  git commit -a -m "Cancel Subscription ref:http://jira.2nd.md/browse/NL-898 r:pranav "
+  255  git pull origin alpha
+  256  git pull origin alpha
+  257  git push origin alpha
+  258  git status
+  259  git commit -a -m "Cancel Subscription display only on annual type subscription  ref:http://jira.2nd.md/browse/NL-898 r:pranav "
+  260  git pull origin alpha
+  261  git pull origin alpha
+  262  git push origin alpha
+  263  git branch
+  264  git checkout mukul/task_nl_895
+  265  cd /Applications/MAMP/htdocs/2ndmd/base
+  266  git status
+  267  git status
+  268  git status
+  269  git add .
+  270  git status
+  271  git commit -a -m " coupon code generation, validation and update it one time use  ref: http://jira.2nd.md/browse/NL-895 r: pranav  "
+  272  git branch
+  273  git checkout alpha
+  274  git pull origin alpha
+  275  git checkout mukul/task_nl_895
+  276  git merge origin/alpha
+  277  git status
+  278  git merge origin/alpha
+  279  git status
+  280  git log
+  281  git reset --hard 3d5a34a817222f502f71ec5a68d10aeabc1874be
+  282  git status
+  283  git merge origin/alpha
+  284  git status
+  285  git checkout alpha
+  286  git pull orign alpha
+  287  git brancj
+  288  git branch
+  289  git merge mukul/task_nl_895
+  290  git status
+  291  git pull origin alpha
+  292  git push origin alpha
+  293  git status
+  294  git pull origin alpha
+  295  git branch
+  296  git checkout mukul/task_nl_895
+  297  git status
+  298  git status
+  299  git commit -a -m "coupon code implementation code improvment"
+  300  git checkout alpha
+  301  pit pull origin alpha
+  302  git pull origin alpha
+  303  git branch
+  304  git checkout mukul/task_nl_895
+  305  git merge origin/alpha
+  306  git checkout alpha
+  307  git pull origin alpha
+  308  git merge origin/mukul/task_nl_895
+  309  git merge mukul/task_nl_895
+  310  git branch
+  311  git pull origin alpha
+  312  git push origin alpha
+  313  git status
+  314  git pull origin alpha
+  315  git status
+  316  git commit -a -m "apply validation on coupon code and update coupon after use it."
+  317  git pull origin alpha
+  318  git push origin alpha
+  319  git status
+  320  git branch
+  321  git commit -a -m "apply validation on coupon code and update coupon after use it. "
+  322  git pull origin alpha
+  323  git push origin alpha
+  324  git status
+  325  git status
+  326  git commit -a -m "cancel subscription: subscription not change on cancel, display reactive button after cancel and remove cancel success message; "
+  327  git pull origin alpha
+  328  git push origin alpha
+  329  redis-cli
+  330  git status
+  331  git commit -a -m "implement loader on cancel subscription"
+  332  git pull origin alpha
+  333  git push origin alpha
+  334  history
+  335  cd /Applications/MAMP/htdocs/2ndmd/base
+  336  git status
+  337  git status
+  338  git commit -a -m "cancel subscription: implement site default popover behalf of alert "
+  339  git status
+  340  git pull origin alpha
+  341  git push origin alpha
+  342  pwd
+  343  cd ~
+  344  cd /var/log/
+  345  ls
+  346  mkdir ci_logs
+  347  sudo mkdir ci_logs
+  348  ls
+  349  cd ci_logs/
+  350  chmod -R 777
+  351  chmod  777
+  352  sudo chmod 777
+  353  sudo chmod -R 777
+  354  history
+  355  cd /Applications/MAMP/htdocs/2ndmd/base
+  356  git status
+  357  git status
+  358  git branch mukul/fix_timezone_on_login
+  359  git branch
+  360  git checkout
+  361  mukul/fix_timezone_on_login
+  362  git checkout mukul/fix_timezone_on_login
+  363  git status
+  364  cd /Applications/MAMP/htdocs/2ndmd/base
+  365  git status
+  366  git diff application/views/frontend/account/signup.php
+  367  git status
+  368  git status
+  369  cd /Applications/MAMP/htdocs/
+  370  cd js/
+  371  git clone https://github.com/mukulcuelogic/js-training.git
+  372  git status
+  373  git status
+  374  git status
+  375  pwd
+  376  cd js-training/
+  377  git status
+  378  git branch
+  379  git add .
+  380  git status
+  381  git status
+  382  git add .
+  383  git status
+  384  git commit -m "pushing day1 code "
+  385  git push origin master
+  386  git push origin master
+  387  git branch
+  388  git status
+  389  git commit -a -m "push changes"
+  390  git status
+  391  git push origin master
+  392  cd js-training/
+  393  cd /Applications/MAMP/htdocs/
+  394  cd js/js-training/
+  395  git config --global core.excludesfile ~/.gitignore_global
+  396  git status
+  397  git add . 
+  398  git status
+  399  git status
+  400  git add .
+  401  git status
+  402  git commit -m "day 1 pending"
+  403  git push origin master
+  404  git status
+  405  git add .
+  406  git commit -m "day 2 commit"
+  407  git push origin master
+  408  git status
+  409  git add.
+  410  git add .
+  411  git status
+  412  git commit -m "commit day 2/2"
+  413  git push origin master
+  414  git status
+  415  git status
+  416  git commit -m "modify comment"
+  417  git push origin master
+  418  git status
+  419  git commit -m "day2/3"
+  420  history
+  421  cd /Applications/MAMP/htdocs/js/js-training/
+  422  git status
+  423  git add .
+  424  git commit -m "day 3 training"
+  425  git push origin master
+  426  cd /Applications/MAMP/htdocs/js/js-training/
+  427  git status
+  428  git add .
+  429  git commit -m "training day 4"
+  430  git push origin master
+  431  git status
+  432  git commit -m "training day 4"
+  433  npm -v
+  434  history
+  435  cd /Applications/MAMP/htdocs/
+  436  mkdir angular
+  437  cd angular/
+  438  git clone https://github.com/Pranay92/angular-skeleton
+  439  cd angular-skeleton/
+  440  sudo npm install
+  441  npm start
+  442  cd /Applications/MAMP/htdocs/angular/angular_login/
+  443  $ npm install angular-local-storage
+  444  npm install angular-local-storage
+  445  pwd
+  446  git status
+  447  git status
+  448  git branch
+  449  cd ..
+  450  cd /angular_training
+  451  cd angular_training
+  452  pwd
+  453  git status
+  454  git clone https://github.com/mukulcuelogic/angular.git
+  455  git status
+  456  cd angular/
+  457  git status
+  458  git push
+  459  git commit -m "commit"
+  460  git add .
+  461  git commit -m "commit"
+  462  git push
+  463  git status
+  464  git add .
+  465  git commit -m "angular training day 1"
+  466  git push origin master
+  467  git status
+  468  git add .
+  469  git status
+  470  git status
+  471  git commit -a -m "test"
+  472  pwd
+  473  git status
+  474  git add .
+  475  git status
+  476  git status
+  477  git add .
+  478  git status
+  479  ls -l
+  480  pwd
+  481  ls -l
+  482  pwd
+  483  cd ..
+  484  pwd
+  485  git clone https://github.com/mukulcuelogic/angular2.git
+  486  cd angular2
+  487  git status
+  488  git add .
+  489  git status
+  490  git commit -m "day 1 training"
+  491  git push origin master
+  492  git status
+  493  git add --all
+  494  git status
+  495  git commit -m "day 1 training"
+  496  git push origin master
+  497  git status
+  498  git add --all
+  499  git commit -m "angular training day 1"
+  500  git push origin master
+  501  cd /Applications/MAMP/htdocs/angular/angular_training/angular2/day2
+  502  npm -v
+  503  npm install angular-ui-router
+  504  git status
+  505  pwd
+  506  cd ..
+  507  pwd
+  508  git status
+  509  git add --all
+  510  git status
+  511  history
+  512  history > test.txt
