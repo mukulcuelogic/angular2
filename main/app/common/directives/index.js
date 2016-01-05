@@ -1,1 +1,2 @@
-angular.module('directives',[]);
+angular.module('directives',['custom-alert.directive']);
+

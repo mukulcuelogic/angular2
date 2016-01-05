@@ -1,31 +1,22 @@
 angular.module('home.controller',['services'])
-      .controller('homeCtrl',['$scope','loginService' ,'employeesService','$location',homeController])
+      .controller('homeCtrl',['$scope','loginService' ,'employeesService','$location','$rootScope',homeController])
       .controller('editCtrl',['$scope','loginService' ,'employeesService','$location','$routeParams',editController])
         .controller('addCtrl',['$scope','loginService' ,'employeesService','$location','$routeParams',addCtrl]);
 
-function homeController($scope,loginService,employeesService,$location) {
-    if(loginService.getSession()) {
+function homeController($scope,loginService,employeesService,$location,$rootScope) {
+    
         $scope.email = loginService.getSession().email;
         $scope.user = employeesService.getUser($scope.email);
         $scope.employees = employeesService.employees;
         $scope.sortorder = '+fullName';
         $scope.deleteEmployee = function(employeeId) {
-            if(confirm("Are you sure? do you want to delete this employee?")) {
-                employeesService.deleteUser($scope.employees , employeeId);
+                $scope.employees = employeesService.deleteUser($scope.employees , employeeId);
                 $location.path('/home');
-            }
         };
-        $scope.logout = function () {
-            loginService.logout();
-            $location.path('/login');
-        }
-    } else {
-        $location.path('/');
-    }
 };
 
 function editController($scope,loginService,employeesService,$location,$routeParams) {
-    if(loginService.getSession()) {
+    
           var userId = $routeParams.userId;
           $scope.unique = false;
           $scope.error = '';
@@ -51,13 +42,11 @@ function editController($scope,loginService,employeesService,$location,$routePar
               $location.path('/home');
           }
           
-    } else {
-        $location.path('/');
-    }
+    
 };
 
 function addCtrl($scope,loginService,employeesService,$location,$routeParams) {
-    if(loginService.getSession()) {
+    
           
         $scope.unique = false;
         $scope.error = '';
@@ -79,8 +68,5 @@ function addCtrl($scope,loginService,employeesService,$location,$routeParams) {
             }
             return $scope.unique;
         }
-         
-    } else {
-        $location.path('/');
-    }
+   
 };

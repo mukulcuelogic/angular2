@@ -17,10 +17,10 @@ function credentials($filter) {
     
     function getAllUsers() {
         return [
-        {'name' : 'Pranay' , 'email' : 'pranay@gmail.com' , 'password' : 'asd@123'},
-        {'name' : 'Shamsher' , 'email' : 'shamsher@gmail.com' , 'password' : 'asd@123'},
-        {'name' : 'Amrutha' , 'email' : 'amrutha@gmail.com' , 'password' : 'asd@123'},
-        {'name' : 'Mukul' , 'email' : 'mukul@gmail.com' , 'password' : 'asd@123'}];
+        {id: 1, 'name' : 'Pranay' , 'email' : 'pranay@gmail.com' , 'password' : 'asd@123'},
+        {id: 2, 'name' : 'Shamsher' , 'email' : 'shamsher@gmail.com' , 'password' : 'asd@123'},
+        {id: 3, 'name' : 'Amrutha' , 'email' : 'amrutha@gmail.com' , 'password' : 'asd@123'},
+        {id: 4, 'name' : 'Mukul' , 'email' : 'mukul@gmail.com' , 'password' : 'asd@123'}];
     }
     
     function getAllByEmail(email) {

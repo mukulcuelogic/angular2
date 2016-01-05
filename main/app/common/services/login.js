@@ -26,16 +26,21 @@ function loginService(credentials,localStorageService) {
     
     function logout() {
         if(getSession()) {
-            return localStorageService.remove('session');
+            return localStorageService.remove('app_access_session');
         }
     }
         
     function setSession(user) {
-        delete user.password;
-        return localStorageService.set('session', user);
+        var currentUser = {
+            'authenticated' : true,
+            'name' : user.name,
+            'email' : user.email,
+            'access_token' : user.id,
+        };
+        return localStorageService.set('app_access_session', currentUser);
     }
 
     function getSession() {
-        return localStorageService.get('session');
+        return localStorageService.get('app_access_session');
     }
 };

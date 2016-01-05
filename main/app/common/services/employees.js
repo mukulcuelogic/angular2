@@ -42,11 +42,20 @@ function employeesService($filter, $rootScope) {
       console.log(service.employees);
   }
   function deleteUser(employees , id) {
+//      console.log(employees);
       angular.forEach(employees, function(value, key) {
-          if(employees.hasOwnProperty(value.id)) {
-            if(value.id == id)  employees.splice(key , 1);
-          }
+//          console.log(value);
+//          console.log(value.id);console.log(id);
+//          if(employees.hasOwnProperty(value.id)) {
+              
+            if(value.id == id) {
+                
+                employees.splice(key , 1);
+            }
+//          }
       });
+      return employees;
+//      console.log(employees);
       
       
   }
