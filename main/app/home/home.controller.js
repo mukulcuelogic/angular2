@@ -4,7 +4,7 @@ angular.module('home.controller',['services'])
         .controller('addCtrl',['$scope','loginService' ,'employeesService','$location','$routeParams',addCtrl]);
 
 function homeController($scope,loginService,employeesService,$location,$rootScope) {
-    
+        $scope.selectedRow = [];
         $scope.email = loginService.getSession().email;
         $scope.user = employeesService.getUser($scope.email);
         $scope.employees = employeesService.employees;
@@ -12,6 +12,30 @@ function homeController($scope,loginService,employeesService,$location,$rootScop
         $scope.deleteEmployee = function(employeeId) {
                 $scope.employees = employeesService.deleteUser($scope.employees , employeeId);
                 $location.path('/home');
+        };
+        $scope.openEdit = function(employeeId) {
+                
+                $location.path('/home/'+employeeId);
+        };
+        $scope.selectEmployee = function(employee) {
+//                $scope.selectedRow.push(index);
+                
+                if($scope.selectedRow.indexOf(employee.id) == -1){
+                    $scope.selectedRow.push(employee.id);
+              }
+              else {
+                $scope.selectedRow.splice($scope.selectedRow.indexOf(employee.id), 1);
+              }
+       
+             
+        };
+        $scope.deleteSelected = function() {
+            for (var i = $scope.selectedRow.length - 1; i >= 0; i--) {
+                if ($scope.selectedRow[i]) {
+                    employeesService.deleteUser($scope.employees , $scope.selectedRow[i]);
+                    $scope.selectedRow.splice(i, 1);
+                }
+            }
         };
 };
 

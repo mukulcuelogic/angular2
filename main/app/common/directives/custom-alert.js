@@ -4,7 +4,7 @@ angular.module('custom-alert.directive',[])
   function(){
 //      console.log('sdfds');
     return {
-      priority: -1,
+      priority: 1,
       terminal: true,
       restrict: 'A',
       link: function(scope, element, attrs){
@@ -13,7 +13,7 @@ angular.module('custom-alert.directive',[])
             var clickAction = attrs.ngClick;
           var message = attrs.customAlert;
           if(message && confirm(message)){
-            scope.$eval(clickAction);
+            scope.$apply(scope.$eval(clickAction));
           }
         });
       }
